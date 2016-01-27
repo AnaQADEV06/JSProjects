@@ -29,3 +29,16 @@ switch (day){
         console.log("Today is: Sunday !");
         break;
 }
+
+
+var time = date1.getHours();
+
+if(time >= 12 && time < 24){
+
+    console.log("Current time is: " + date1.getHours() + " PM " + date1.getMinutes() + " " + date1.getSeconds());
+}
+else{
+
+    console.log("Current time is: " + date1.getHours() + " AM " + date1.getMinutes() + " " + date1.getSeconds());
+
+};
