@@ -11,3 +11,19 @@ var paragraph = "Hello World!";
 var totalWords = countWords(paragraph);
 console.log("The number of words is: " + totalWords);
 
+/*Commit Tuesday 02/03/2016*/
+
+var askQuestion = function(name1){
+    console.log("How are you?" +  name);
+};
+
+
+var sayHello = function(name2, cb){
+    console.log("Hello " + name2);
+    cb(name2);
+}
+
+var aName = 'Leo';
+sayHello('Leo',function(name1){
+    console.log("How are you? " +  name1);
+});
