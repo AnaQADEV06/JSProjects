@@ -27,3 +27,13 @@ var aName = 'Leo';
 sayHello('Leo',function(name1){
     console.log("How are you? " +  name1);
 });
+
+/*Commit Wednesday 02/04/2016*/
+
+
+(function(){
+    var a = 2;
+    var b = 3;
+    var res = a+b;
+    console.log('Sum is '  + res);
+})();
