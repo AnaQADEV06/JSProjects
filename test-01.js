@@ -27,7 +27,11 @@ For every mistake that you have 1 point is going to be subtract from your total 
 *
 * */
 
-var getPrimeNumbers = function(firtsPrimeNumbers){
+
+var JSTest=function()
+{};
+
+JSTest.prototype.getPrimeNumbers = function(firtsPrimeNumbers){
 
     var top = firtsPrimeNumbers;
 
@@ -62,7 +66,7 @@ var getPrimeNumbers = function(firtsPrimeNumbers){
 * @param: number
 * */
 
-var getFactorial = function (number) {
+JSTest.prototype.getFactorial = function (number) {
     var total = 1;
     for (i=1; i<=number; i++) {
         total = total * i;
@@ -76,7 +80,7 @@ var getFactorial = function (number) {
 *
 * */
 
-var countVowels = function(p){
+JSTest.prototype.countVowels = function(p){
 
     var paragraph = p;
 
@@ -122,7 +126,7 @@ var countVowels = function(p){
 * */
 
 
-var evalParagraph = function(p, l){
+JSTest.prototype.evalParagraph = function(p, l){
 
     var paragraph = p;
     var letter = l;
