@@ -17,6 +17,11 @@ var Calculator = function()
 
 };
 
+/*
+ * Draw the calculator
+ * @param {}
+ */
+
 Calculator.prototype.draw= function()
 {
     t = document.createElement('table')
@@ -31,7 +36,7 @@ Calculator.prototype.draw= function()
     r.appendChild(c9)
     r.appendChild(cC)
     c7.innerText = '7'
-    c7.addEventListener('click', saveNumber);
+    //c7.addEventListener('click', saveNumber);
     c8.innerText = '8'
     c9.innerText = '9'
     cC.innerText = 'C'
